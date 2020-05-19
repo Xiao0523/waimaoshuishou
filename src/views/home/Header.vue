@@ -11,14 +11,14 @@
           mode="horizontal"
           @select="handleSelect"
           :router="router"
-          :default-active="defaultActive"
-        >
-          <el-menu-item index="/" >首页</el-menu-item>
+          :default-active="$route.path"
+        > 
+          <el-menu-item index="/">首页</el-menu-item>
           <el-menu-item index="/product" >产品服务</el-menu-item>
           <el-menu-item index="/news" >新闻资讯</el-menu-item>
           <el-menu-item index="/case" >合作案例</el-menu-item>
           <el-menu-item index="/Company" >公司简介</el-menu-item>
-          <el-menu-item index="/goin" >联系我们</el-menu-item>
+          <el-menu-item index="/goin" >联系我们</el-menu-item> 
         </el-menu>
       </el-header>
       <el-main>
@@ -34,11 +34,11 @@ export default {
   data() {
     return {
       router: true,
-      defaultActive: "/"
     };
   },
   methods: {
     handleSelect(key, keyPath) {
+      debugger;
       this.isShow = this.defaultActive != key;
       window.console.log(this.isShow);
       window.console.log(keyPath);
