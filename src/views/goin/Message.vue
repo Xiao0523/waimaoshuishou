@@ -31,22 +31,95 @@
         </div>
       </div>
       <div class="submit_wrap">
-        <el-button size="medium">提交</el-button>
+        <el-button size="medium" @click="Verification">提交</el-button>
       </div>
+      <el-dialog title="请输入验证码" :visible.sync="dialogVisible" width="20%">
+        <img v-lazy="codeUrl" />
+        <el-input v-model="code" placeholder="请输入验证码"></el-input>
+        <span slot="footer" class="dialog-footer">
+          <el-button @click="close">取 消</el-button>
+          <el-button type="primary" @click="consultation">确 定</el-button>
+        </span>
+      </el-dialog>
     </div>
   </div>
 </template>
 
 <script>
+import { getCode, patchConsultation } from "@/api/getCode";
 export default {
   data() {
     return {
       name: "",
       phone: "",
-      content: ""
+      content: "",
+      dialogVisible: false,
+      codeUrl: "",
+      code: ""
     };
   },
-  components: {}
+  components: {},
+    methods: {
+    Verification() {
+      if (!this.phone) {
+        this.$message({
+          message: "请先输入联系方式",
+          type: "warning",
+          duration: 5000
+        });
+        return;
+      }
+      if (!this.name) {
+        this.$message({
+          message: "请先输入姓名",
+          type: "warning",
+          duration: 5000
+        });
+        return;
+      }
+      getCode(this.phone)
+        .then(res => {
+          if (res.data.code) {
+            return res.data.message && this.$wran(res.data.message);
+          }
+          if (!res.data.data) return;
+          this.codeUrl = res.data.data;
+          this.dialogVisible = true;
+        })
+        .catch(err => {});
+    },
+    close() {
+      this.dialogVisible = false;
+    },
+    consultation() {
+      const data = {
+        code: this.phone, //随机码
+        detail: this.content, //内容
+        name: this.name, //姓名
+        validCode: this.code, //验证码
+        way: this.phone //	联系方式
+      };
+      patchConsultation(data)
+        .then(res => {
+          if (res.data.code) {
+            return res.data.message && this.$wran(res.data.message);
+          }
+
+          this.$message({
+            message: res.data.message,
+            type: "success",
+            duration: 5000
+          });
+          this.dialogVisible = false;
+          (this.name = ""),
+            (this.phone = ""),
+            (this.content = ""),
+            (this.codeUrl = ""),
+            (this.code = "");
+        })
+        .catch(err => {});
+    }
+  }
 };
 </script>
 

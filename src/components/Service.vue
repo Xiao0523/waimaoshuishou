@@ -19,7 +19,7 @@
           <span>联系方式</span>
         </div>
         <div class="contact_input">
-          <el-input v-model="name" placeholder="请输入联系方式"></el-input>
+          <el-input v-model="phone" placeholder="请输入联系方式"></el-input>
         </div>
         <div class="content_span">
           <span>内容描述</span>
@@ -28,7 +28,7 @@
           <el-input v-model="content" type="textarea" :autosize="{ minRows: 3, maxRows: 6}"></el-input>
         </div>
         <div class="submit_wrap">
-          <el-button>提交</el-button>
+          <el-button @click="Verification">提交</el-button>
         </div>
       </div>
       <div class="immediately">
@@ -36,17 +36,29 @@
       </div>
       <div class="immediately_way">
         <div class="immediately_way_item">
-          <img src="https://oss.my51share.com/wmss/assets/img/service/phone.png" alt class="immediately_way_item_img" />
+          <img
+            src="https://oss.my51share.com/wmss/assets/img/service/phone.png"
+            alt
+            class="immediately_way_item_img"
+          />
           <span class="immediately_way_item_span_1">客服电话</span>
           <span class="immediately_way_item_span_2">400-0574-966</span>
         </div>
         <div class="immediately_way_item">
-          <img src="https://oss.my51share.com/wmss/assets/img/service/WeChat.png" alt class="immediately_way_item_img" />
+          <img
+            src="https://oss.my51share.com/wmss/assets/img/service/WeChat.png"
+            alt
+            class="immediately_way_item_img"
+          />
           <span class="immediately_way_item_span_1">添加微信</span>
           <span class="immediately_way_item_span_2">18067519330</span>
         </div>
         <div class="immediately_way_item">
-          <img src="https://oss.my51share.com/wmss/assets/img/service/CustomerService.png" alt class="immediately_way_item_img" />
+          <img
+            src="https://oss.my51share.com/wmss/assets/img/service/CustomerService.png"
+            alt
+            class="immediately_way_item_img"
+          />
           <span class="immediately_way_item_span_1">在线客服</span>
           <a
             class="immediately_way_item_a"
@@ -55,7 +67,11 @@
           >开始咨询</a>
         </div>
         <div class="immediately_way_item">
-          <img src="https://oss.my51share.com/wmss/assets/img/service/QQ.png" alt class="immediately_way_item_img" />
+          <img
+            src="https://oss.my51share.com/wmss/assets/img/service/QQ.png"
+            alt
+            class="immediately_way_item_img"
+          />
           <span class="immediately_way_item_span_1">QQ客服</span>
           <a
             class="immediately_way_item_a"
@@ -65,19 +81,92 @@
         </div>
       </div>
     </div>
+      <el-dialog title="请输入验证码" :visible.sync="dialogVisible" width="20%">
+          <img v-lazy="codeUrl" />
+          <el-input v-model="code" placeholder="请输入验证码"></el-input>
+          <span slot="footer" class="dialog-footer">
+            <el-button @click="close">取 消</el-button>
+            <el-button type="primary" @click="consultation">确 定</el-button>
+          </span>
+        </el-dialog>
   </div>
 </template>
 
 <script>
+import { getCode, patchConsultation } from "@/api/getCode";
 export default {
   data() {
     return {
       name: "",
       phone: "",
-      content: ""
+      content: "",
+      dialogVisible: false,
+      codeUrl: "",
+      code: ""
     };
   },
-  components: {}
+  components: {},
+  methods: {
+    Verification() {
+      if (!this.phone) {
+        this.$message({
+          message: "请先输入联系方式",
+          type: "warning",
+          duration: 5000
+        });
+        return;
+      }
+      if (!this.name) {
+        this.$message({
+          message: "请先输入姓名",
+          type: "warning",
+          duration: 5000
+        });
+        return;
+      }
+      getCode(this.phone)
+        .then(res => {
+          if (res.data.code) {
+            return res.data.message && this.$wran(res.data.message);
+          }
+          if (!res.data.data) return;
+          this.codeUrl = res.data.data;
+          this.dialogVisible = true;
+        })
+        .catch(err => {});
+    },
+    close() {
+      this.dialogVisible = false;
+    },
+    consultation() {
+      const data = {
+        code: this.phone, //随机码
+        detail: this.content, //内容
+        name: this.name, //姓名
+        validCode: this.code, //验证码
+        way: this.phone //	联系方式
+      };
+      patchConsultation(data)
+        .then(res => {
+          if (res.data.code) {
+            return res.data.message && this.$wran(res.data.message);
+          }
+
+          this.$message({
+            message: res.data.message,
+            type: "success",
+            duration: 5000
+          });
+          this.dialogVisible = false;
+          (this.name = ""),
+            (this.phone = ""),
+            (this.content = ""),
+            (this.codeUrl = ""),
+            (this.code = "");
+        })
+        .catch(err => {});
+    }
+  }
 };
 </script>
 
@@ -194,7 +283,7 @@ export default {
   border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
-.el-button {
+.submit_wrap >>>.el-button {
   position: absolute;
   left: 369px;
   top: 464px;

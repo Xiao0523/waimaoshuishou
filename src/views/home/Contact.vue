@@ -2,67 +2,155 @@
   <div>
     <div class="outline">
       <!-- <a href="javascript:;" class="outline__item outline__item_i_1">外观</a> -->
-      <div class="contact">
+      <!-- <div class="contact">
         <div>
           <span>联系我们</span>
-          <a href="javascript:;">
+          <a href="javascript:;" >
             <div class="retract"></div>
           </a>
         </div>
-      </div>
-      <div class="way">
-        <div class="name_span">
-          <span>姓名</span>
-        </div>
-        <div class="name_input">
-          <el-input v-model="name" placeholder="请输入姓名"></el-input>
-        </div>
-        <div class="contact_span">
-          <span>联系方式</span>
-        </div>
-        <div class="contact_input">
-          <el-input v-model="name" placeholder="请输入联系方式"></el-input>
-        </div>
-        <div class="content_span">
-          <span>内容描述</span>
-        </div>
-        <div class="content_input">
-          <el-input v-model="content" type="textarea" :autosize="{ minRows: 3, maxRows: 6}"></el-input>
-        </div>
-        <div class="submit_wrap">
-          <el-button>提交</el-button>
-        </div>
-        <div class="consulting">
-          <span>在线咨询</span>
-        </div>
-        <a
-          class="contact_qq"
-          target="_blank"
-          href="http://wpa.qq.com/msgrd?v=3&uin=525941084&site=qq&menu=yes"
-        >
-          <img src="https://oss.my51share.com/wmss/assets/img/contact_qq.png" />
-        </a>
-        <div class="contact_wx">
-          <img src="https://oss.my51share.com/wmss/assets/img/contact_wx.png" />
-        </div>
-        <div class="contact_kf">
-          <img src="https://oss.my51share.com/wmss/assets/img/contact_kf.png" />
-        </div>
-      </div>
+      </div>-->
+      <el-collapse accordion>
+        <el-collapse-item>
+          <template slot="title">
+            <div class="contact">
+              <div>
+                <span>联系我们</span>
+                <a href="javascript:;">
+                  <div class="retract"></div>
+                </a>
+              </div>
+            </div>
+          </template>
+          <div class="way">
+            <div class="name_span">
+              <span>姓名</span>
+            </div>
+            <div class="name_input">
+              <el-input v-model="name" placeholder="请输入姓名"></el-input>
+            </div>
+            <div class="contact_span">
+              <span>联系方式</span>
+            </div>
+            <div class="contact_input">
+              <el-input v-model="phone" placeholder="请输入联系方式"></el-input>
+            </div>
+            <div class="content_span">
+              <span>内容描述</span>
+            </div>
+            <div class="content_input">
+              <el-input v-model="content" type="textarea" :autosize="{ minRows: 3, maxRows: 6}"></el-input>
+            </div>
+            <div class="submit_wrap">
+              <el-button @click="Verification">提交</el-button>
+            </div>
+            <el-dialog title="请输入验证码" :visible.sync="dialogVisible" width="20%">
+              <img v-lazy="codeUrl" />
+              <el-input v-model="code" placeholder="请输入验证码"></el-input>
+              <span slot="footer" class="dialog-footer">
+                <el-button @click="close">取 消</el-button>
+                <el-button type="primary" @click="consultation">确 定</el-button>
+              </span>
+            </el-dialog>
+            <div class="consulting">
+              <span>在线咨询</span>
+            </div>
+            <a
+              class="contact_qq"
+              target="_blank"
+              href="http://wpa.qq.com/msgrd?v=3&uin=525941084&site=qq&menu=yes"
+            >
+              <img src="https://oss.my51share.com/wmss/assets/img/contact_qq.png" />
+            </a>
+            <div class="contact_wx">
+              <img src="https://oss.my51share.com/wmss/assets/img/contact_wx.png" />
+            </div>
+            <div class="contact_kf">
+              <img src="https://oss.my51share.com/wmss/assets/img/contact_kf.png" />
+            </div>
+          </div>
+        </el-collapse-item>
+      </el-collapse>
     </div>
   </div>
 </template>
 
 <script>
+import { getCode, patchConsultation } from "@/api/getCode";
 export default {
   data() {
     return {
       name: "",
       phone: "",
-      content: ""
+      content: "",
+      activeNames: 1,
+      dialogVisible: false,
+      codeUrl: "",
+      code: ""
     };
   },
-  components: {}
+  components: {},
+  methods: {
+    Verification() {
+      if (!this.phone) {
+        this.$message({
+          message: "请先输入联系方式",
+          type: "warning",
+          duration: 5000
+        });
+        return;
+      }
+      if (!this.name) {
+        this.$message({
+          message: "请先输入姓名",
+          type: "warning",
+          duration: 5000
+        });
+        return;
+      }
+      getCode(this.phone)
+        .then(res => {
+          if (res.data.code) {
+            return res.data.message && this.$wran(res.data.message);
+          }
+          if (!res.data.data) return;
+          this.codeUrl = res.data.data;
+          this.dialogVisible = true;
+        })
+        .catch(err => {});
+    },
+    close() {
+      this.dialogVisible = false;
+    },
+    consultation() {
+      const data = {
+        code: this.phone, //随机码
+        detail: this.content, //内容
+        name: this.name, //姓名
+        validCode: this.code, //验证码
+        way: this.phone //	联系方式
+      };
+      patchConsultation(data)
+        .then(res => {
+          if (res.data.code) {
+            return res.data.message && this.$wran(res.data.message);
+          }
+
+          this.$message({
+            message: res.data.message,
+            type: "success",
+            duration: 5000
+          });
+          this.dialogVisible = false;
+          (this.name = ""),
+            (this.phone = ""),
+            (this.content = ""),
+            (this.codeUrl = ""),
+            (this.code = "");
+        })
+        .catch(err => {});
+    }
+  }
 };
 </script>
 

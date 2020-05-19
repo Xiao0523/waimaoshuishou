@@ -19,7 +19,7 @@
           <el-button>开始咨询</el-button>
         </div>
         <div class="contact_item">
-          <img src="https://oss.my51share.com/wmss/assets/imggoin/QQ.png" alt class="item_img" />
+          <img src="https://oss.my51share.com/wmss/assets/img/goin/QQ.png" alt class="item_img" />
           <span class="span_1">QQ客服</span>
           <el-button>开始咨询</el-button>
         </div>
