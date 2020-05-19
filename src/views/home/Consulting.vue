@@ -82,7 +82,7 @@ export default {
       }
       getCode(this.phone)
         .then(res => {
-          debugger;
+         
           if (res.data.code) {
             return res.data.message && this.$wran(res.data.message);
           }
@@ -108,7 +108,7 @@ export default {
           if (res.data.code) {
             return res.data.message && this.$wran(res.data.message);
           }
-          debugger;
+         
           this.$message({
             message: res.data.message,
             type: "success",

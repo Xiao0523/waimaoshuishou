@@ -34,11 +34,12 @@ export default {
   data() {
     return {
       router: true,
+
     };
   },
   methods: {
     handleSelect(key, keyPath) {
-      debugger;
+     
       this.isShow = this.defaultActive != key;
       window.console.log(this.isShow);
       window.console.log(keyPath);

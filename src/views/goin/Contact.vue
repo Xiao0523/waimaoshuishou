@@ -4,17 +4,17 @@
       <div class="background"></div>
       <div class="contact_list">
         <div class="contact_item">
-          <img src="https://oss.my51share.com/wmss/assets/imggoin/phone.png" alt class="item_img" />
+          <img src="https://oss.my51share.com/wmss/assets/img/goin/phone.png" alt class="item_img" />
           <span class="span_1">客服电话</span>
           <span class="span_2">400-0574-966</span>
         </div>
         <div class="contact_item">
-          <img src="https://oss.my51share.com/wmss/assets/imggoin/WeChat.png" alt class="item_img" />
+          <img src="https://oss.my51share.com/wmss/assets/img/goin/WeChat.png" alt class="item_img" />
           <span class="span_1">添加微信</span>
           <span class="span_2">18067519330</span>
         </div>
         <div class="contact_item">
-          <img src="https://oss.my51share.com/wmss/assets/imggoin/Customer.png" alt class="item_img" />
+          <img src="https://oss.my51share.com/wmss/assets/img/goin/Customer.png" alt class="item_img" />
           <span class="span_1">在线客服</span>
           <el-button>开始咨询</el-button>
         </div>

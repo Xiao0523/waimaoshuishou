@@ -36,17 +36,17 @@
       </div>
       <div class="immediately_way">
         <div class="immediately_way_item">
-          <img src="https://oss.my51share.com/wmss/assets/imgservice/phone.png" alt class="immediately_way_item_img" />
+          <img src="https://oss.my51share.com/wmss/assets/img/service/phone.png" alt class="immediately_way_item_img" />
           <span class="immediately_way_item_span_1">客服电话</span>
           <span class="immediately_way_item_span_2">400-0574-966</span>
         </div>
         <div class="immediately_way_item">
-          <img src="https://oss.my51share.com/wmss/assets/imgservice/WeChat.png" alt class="immediately_way_item_img" />
+          <img src="https://oss.my51share.com/wmss/assets/img/service/WeChat.png" alt class="immediately_way_item_img" />
           <span class="immediately_way_item_span_1">添加微信</span>
           <span class="immediately_way_item_span_2">18067519330</span>
         </div>
         <div class="immediately_way_item">
-          <img src="https://oss.my51share.com/wmss/assets/imgservice/CustomerService.png" alt class="immediately_way_item_img" />
+          <img src="https://oss.my51share.com/wmss/assets/img/service/CustomerService.png" alt class="immediately_way_item_img" />
           <span class="immediately_way_item_span_1">在线客服</span>
           <a
             class="immediately_way_item_a"
@@ -55,7 +55,7 @@
           >开始咨询</a>
         </div>
         <div class="immediately_way_item">
-          <img src="https://oss.my51share.com/wmss/assets/imgservice/QQ.png" alt class="immediately_way_item_img" />
+          <img src="https://oss.my51share.com/wmss/assets/img/service/QQ.png" alt class="immediately_way_item_img" />
           <span class="immediately_way_item_span_1">QQ客服</span>
           <a
             class="immediately_way_item_a"

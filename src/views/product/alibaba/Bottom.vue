@@ -89,12 +89,12 @@
         </div>
 
         <div class="process_arrow">
-          <img src="https://oss.my51share.com/wmss/assets/imgalibaba_arrow_1.png" class="process_arrow_i_1" />
-          <img src="https://oss.my51share.com/wmss/assets/imgalibaba_arrow_1.png" class="process_arrow_i_2" />
-          <img src="https://oss.my51share.com/wmss/assets/imgalibaba_arrow_1.png" class="process_arrow_i_3" />
-          <img src="https://oss.my51share.com/wmss/assets/imgalibaba_arrow_1.png" class="process_arrow_i_4" />
-          <img src="https://oss.my51share.com/wmss/assets/imgalibaba_arrow_1.png" class="process_arrow_i_5" />
-          <img src="https://oss.my51share.com/wmss/assets/imgalibaba_arrow_2.png" class="process_arrow_i_6" />
+          <img src="https://oss.my51share.com/wmss/assets/img/alibaba_arrow_1.png" class="process_arrow_i_1" />
+          <img src="https://oss.my51share.com/wmss/assets/img/alibaba_arrow_1.png" class="process_arrow_i_2" />
+          <img src="https://oss.my51share.com/wmss/assets/img/alibaba_arrow_1.png" class="process_arrow_i_3" />
+          <img src="https://oss.my51share.com/wmss/assets/img/alibaba_arrow_1.png" class="process_arrow_i_4" />
+          <img src="https://oss.my51share.com/wmss/assets/img/alibaba_arrow_1.png" class="process_arrow_i_5" />
+          <img src="https://oss.my51share.com/wmss/assets/img/alibaba_arrow_2.png" class="process_arrow_i_6" />
         </div>
       </div>
     </div>

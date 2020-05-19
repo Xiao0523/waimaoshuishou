@@ -2,7 +2,7 @@ import service from './fetch'
 // import qs from 'qs'
 
 const get = function(url, params = '') {
-  // debugger;
+  //
   return service.get(url, { params })
 }
 
