@@ -40,13 +40,13 @@
           target="_blank"
           href="http://wpa.qq.com/msgrd?v=3&uin=525941084&site=qq&menu=yes"
         >
-          <img src="@img/contact_qq.png" />
+          <img src="https://oss.my51share.com/wmss/assets/imgcontact_qq.png" />
         </a>
         <div class="contact_wx">
-          <img src="@img/contact_wx.png" />
+          <img src="https://oss.my51share.com/wmss/assets/imgcontact_wx.png" />
         </div>
         <div class="contact_kf">
-          <img src="@img/contact_kf.png" />
+          <img src="https://oss.my51share.com/wmss/assets/imgcontact_kf.png" />
         </div>
       </div>
     </div>

@@ -4,14 +4,14 @@
       <div class="service__wrap">
         <div class="service_1">
           <div class="subheading_1_img">
-            <img src="@img/img_4.png" />
+            <img src="https://oss.my51share.com/wmss/assets/imgimg_4.png" />
           </div>
           <div class="subheading_1">
             <span>多平台多账户广告投放</span>
           </div>
           <div class="service_features-item item_1_1">
             <div class="item_1_1_img">
-              <img src="@img/img_5.png" />
+              <img src="https://oss.my51share.com/wmss/assets/imgimg_5.png" />
             </div>
             <div class="item_1_1_span">
               <span>多平台多产品，持续投放</span>
@@ -19,7 +19,7 @@
           </div>
           <div class="service_features-item item_1_2">
             <div class="item_1_2_img">
-              <img src="@img/img_5.png" />
+              <img src="https://oss.my51share.com/wmss/assets/imgimg_5.png" />
             </div>
             <div class="item_1_2_span">
               <span>专业平台运营团队全程为您一站式服务</span>
@@ -27,7 +27,7 @@
           </div>
           <div class="service_features-item item_1_3">
             <div class="item_1_3_img">
-              <img src="@img/img_5.png" />
+              <img src="https://oss.my51share.com/wmss/assets/imgimg_5.png" />
             </div>
             <div class="item_1_3_span">
               <span>精致产品优化宣传，询盘销量迅速提升</span>
@@ -36,14 +36,14 @@
         </div>
         <div class="service_2">
           <div class="subheading_2_img">
-            <img src="@img/img_6.png" />
+            <img src="https://oss.my51share.com/wmss/assets/imgimg_6.png" />
           </div>
           <div class="subheading_2">
             <span>商务微站</span>
           </div>
           <div class="service_features-item item_2_1">
             <div class="item_2_1_img">
-              <img src="@img/img_5.png" />
+              <img src="https://oss.my51share.com/wmss/assets/imgimg_5.png" />
             </div>
             <div class="item_2_1_span">
               <span>便于搜索引擎抓取的网站架构</span>
@@ -51,7 +51,7 @@
           </div>
           <div class="service_features-item item_2_2">
             <div class="item_2_2_img">
-              <img src="@img/img_5.png" />
+              <img src="https://oss.my51share.com/wmss/assets/imgimg_5.png" />
             </div>
             <div class="item_2_2_span">
               <span>符合用户体验的网站</span>
@@ -59,7 +59,7 @@
           </div>
           <div class="service_features-item item_2_3">
             <div class="item_2_3_img">
-              <img src="@img/img_5.png" />
+              <img src="https://oss.my51share.com/wmss/assets/imgimg_5.png" />
             </div>
             <div class="item_2_3_span">
               <span>98种智能AI翻译帮您实现语言障碍</span>
@@ -67,7 +67,7 @@
           </div>
           <div class="service_features-item item_2_4">
             <div class="item_2_4_img">
-              <img src="@img/img_5.png" />
+              <img src="https://oss.my51share.com/wmss/assets/imgimg_5.png" />
             </div>
             <div class="item_2_4_span">
               <span>符合seo谷歌搜索引擎优化</span>
@@ -75,7 +75,7 @@
           </div>
           <div class="service_features-item item_2_5">
             <div class="item_2_5_img">
-              <img src="@img/img_5.png" />
+              <img src="https://oss.my51share.com/wmss/assets/imgimg_5.png" />
             </div>
             <div class="item_2_5_span">
               <span>赠送5个行业关键词</span>
@@ -84,14 +84,14 @@
         </div>
         <div class="service_3">
           <div class="subheading_3_img">
-            <img src="@img/img_7.png" />
+            <img src="https://oss.my51share.com/wmss/assets/imgimg_7.png" />
           </div>
           <div class="subheading_3">
             <span>社媒营销</span>
           </div>
           <div class="service_features-item item_3_1">
             <div class="item_3_1_img">
-              <img src="@img/img_5.png" />
+              <img src="https://oss.my51share.com/wmss/assets/imgimg_5.png" />
             </div>
             <div class="item_3_1_span">
               <span>优选社交平台</span>
@@ -99,7 +99,7 @@
           </div>
           <div class="service_features-item item_1_2">
             <div class="item_3_2_img">
-              <img src="@img/img_5.png" />
+              <img src="https://oss.my51share.com/wmss/assets/imgimg_5.png" />
             </div>
             <div class="item_3_2_span">
               <span>持续营销</span>
@@ -107,7 +107,7 @@
           </div>
           <div class="service_features-item item_1_3">
             <div class="item_3_3_img">
-              <img src="@img/img_5.png" />
+              <img src="https://oss.my51share.com/wmss/assets/imgimg_5.png" />
             </div>
             <div class="item_3_3_span">
               <span>降低成本</span>
@@ -116,14 +116,14 @@
         </div>
         <div class="service_4">
           <div class="subheading_4_img">
-            <img src="@img/img_8.png" />
+            <img src="https://oss.my51share.com/wmss/assets/imgimg_8.png" />
           </div>
           <div class="subheading_4">
             <span>谷歌SEO优化</span>
           </div>
           <div class="service_features-item item_4_1">
             <div class="item_4_1_img">
-              <img src="@img/img_5.png" />
+              <img src="https://oss.my51share.com/wmss/assets/imgimg_5.png" />
             </div>
             <div class="item_4_1_span">
               <span>排名上首页,快速获取精准流量</span>
@@ -131,7 +131,7 @@
           </div>
           <div class="service_features-item item_4_2">
             <div class="item_4_2_img">
-              <img src="@img/img_5.png" />
+              <img src="https://oss.my51share.com/wmss/assets/imgimg_5.png" />
             </div>
             <div class="item_4_2_span">
               <span>seo优化排名客观公正,无额外点击付费</span>
@@ -139,7 +139,7 @@
           </div>
           <div class="service_features-item item_4_3">
             <div class="item_4_3_img">
-              <img src="@img/img_5.png" />
+              <img src="https://oss.my51share.com/wmss/assets/imgimg_5.png" />
             </div>
             <div class="item_4_3_span">
               <span>排名持续存在效果持久</span>
@@ -147,7 +147,7 @@
           </div>
           <div class="service_features-item item_4_4">
             <div class="item_4_4_img">
-              <img src="@img/img_5.png" />
+              <img src="https://oss.my51share.com/wmss/assets/imgimg_5.png" />
             </div>
             <div class="item_4_4_span">
               <span>可设置多个关键词覆盖范围广</span>
@@ -156,14 +156,14 @@
         </div>
         <div class="service_5">
           <div class="subheading_5_img">
-            <img src="@img/img_9.png" />
+            <img src="https://oss.my51share.com/wmss/assets/imgimg_9.png" />
           </div>
           <div class="subheading_5">
             <span>外贸全流程</span>
           </div>
           <div class="service_features-item item_5_1">
             <div class="item_5_1_img">
-              <img src="@img/img_5.png" />
+              <img src="https://oss.my51share.com/wmss/assets/imgimg_5.png" />
             </div>
             <div class="item_5_1_span">
               <span>让采购商和公司直接合作</span>
@@ -171,7 +171,7 @@
           </div>
           <div class="service_features-item item_5_2">
             <div class="item_5_2_img">
-              <img src="@img/img_5.png" />
+              <img src="https://oss.my51share.com/wmss/assets/imgimg_5.png" />
             </div>
             <div class="item_5_2_span">
               <span>多渠道展现形象提升您的询盘量</span>
@@ -179,7 +179,7 @@
           </div>
           <div class="service_features-item item_5_3">
             <div class="item_5_3_img">
-              <img src="@img/img_5.png" />
+              <img src="https://oss.my51share.com/wmss/assets/imgimg_5.png" />
             </div>
             <div class="item_5_3_span">
               <span>零基础辅助,从零基础到外贸成交</span>

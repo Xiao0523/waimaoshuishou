@@ -23,35 +23,35 @@
         <span class="package_warp_item_span_i_2 Black_font">多平台多账户广告</span>
       </div>
       <div class="package_warp_item_long">
-        <img src="@img/packageDeails_tick_1.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imgpackageDeails_tick_1.png" alt />
       </div>
       <div class="package_warp_item">
         <span class="package_warp_item_span_i_2 Black_font">Google搜索排名</span>
       </div>
       <div class="package_warp_item">
-        <img src="@img/packageDeails_tick_1.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imgpackageDeails_tick_1.png" alt />
         <span class="package_warp_item_span_i_3 Black_font">关键词个数>=50</span>
       </div>
       <div class="package_warp_item">
-        <img src="@img/packageDeails_tick_1.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imgpackageDeails_tick_1.png" alt />
         <span class="package_warp_item_span_i_3 Black_font">关键词个数>=50</span>
       </div>
       <div class="package_warp_item">
-        <img src="@img/packageDeails_tick_1.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imgpackageDeails_tick_1.png" alt />
         <span class="package_warp_item_span_i_3 Black_font">
           关键词个数>=
           <b>100</b>
         </span>
       </div>
       <div class="package_warp_item">
-        <img src="@img/packageDeails_tick_1.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imgpackageDeails_tick_1.png" alt />
         <span class="package_warp_item_span_i_3 Black_font">
           关键词个数>=
           <b>100</b>
         </span>
       </div>
       <div class="package_warp_item red_background">
-        <img src="@img/packageDeails_tick_2.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imgpackageDeails_tick_2.png" alt />
         <span class="package_warp_item_span_i_3 White_font">关键词>=100</span>
       </div>
       <div class="package_warp_item">
@@ -64,10 +64,10 @@
       <div class="package_warp_item"></div>
       <div class="package_warp_item"></div>
       <div class="package_warp_item">
-        <img src="@img/packageDeails_tick_1.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imgpackageDeails_tick_1.png" alt />
       </div>
       <div class="package_warp_item red_background">
-        <img src="@img/packageDeails_tick_2.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imgpackageDeails_tick_2.png" alt />
       </div>
       <div class="package_warp_item">
         <span class="package_warp_item_span_i_2 Black_font">国际行业网站推广</span>
@@ -77,26 +77,26 @@
       <div class="package_warp_item"></div>
       <div class="package_warp_item"></div>
       <div class="package_warp_item red_background">
-        <img src="@img/packageDeails_tick_2.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imgpackageDeails_tick_2.png" alt />
       </div>
       <div class="package_warp_item">
         <span class="package_warp_item_span_i_2 Black_font">企业官网豪华版</span>
       </div>
       <div class="package_warp_item"></div>
       <div class="package_warp_item">
-        <img src="@img/packageDeails_tick_1.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imgpackageDeails_tick_1.png" alt />
         <span class="package_warp_item_span_i_3 Black_font">八种语言版官网</span>
       </div>
       <div class="package_warp_item">
-        <img src="@img/packageDeails_tick_1.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imgpackageDeails_tick_1.png" alt />
         <span class="package_warp_item_span_i_3 Black_font">八种语言版官网</span>
       </div>
       <div class="package_warp_item">
-        <img src="@img/packageDeails_tick_1.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imgpackageDeails_tick_1.png" alt />
         <span class="package_warp_item_span_i_3 Black_font">八种语言版官网</span>
       </div>
       <div class="package_warp_item red_background">
-        <img src="@img/packageDeails_tick_2.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imgpackageDeails_tick_2.png" alt />
         <span class="package_warp_item_span_i_3 White_font">八种语言版官网</span>
       </div>
       <div class="package_warp_item">
@@ -107,7 +107,7 @@
       <div class="package_warp_item"></div>
       <div class="package_warp_item"></div>
       <div class="package_warp_item red_background">
-        <img src="@img/packageDeails_tick_2.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imgpackageDeails_tick_2.png" alt />
       </div>
       <div class="package_warp_item">
         <span class="package_warp_item_span_i_2 Black_font">企业邮箱(50人)</span>
@@ -115,13 +115,13 @@
       <div class="package_warp_item"></div>
       <div class="package_warp_item"></div>
       <div class="package_warp_item">
-        <img src="@img/packageDeails_tick_1.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imgpackageDeails_tick_1.png" alt />
       </div>
       <div class="package_warp_item">
-        <img src="@img/packageDeails_tick_1.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imgpackageDeails_tick_1.png" alt />
       </div>
       <div class="package_warp_item red_background">
-        <img src="@img/packageDeails_tick_2.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imgpackageDeails_tick_2.png" alt />
       </div>
       <div class="package_warp_item">
         <span class="package_warp_item_span_i_2 Black_font">海外社交平台代运营</span>
@@ -131,7 +131,7 @@
       <div class="package_warp_item"></div>
       <div class="package_warp_item"></div>
       <div class="package_warp_item red_background">
-        <img src="@img/packageDeails_tick_2.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imgpackageDeails_tick_2.png" alt />
       </div>
       <div class="package_warp_item">
         <span class="package_warp_item_span_i_2 Black_font">海外社交平台代运营</span>

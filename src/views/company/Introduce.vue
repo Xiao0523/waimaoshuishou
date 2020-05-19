@@ -2,7 +2,7 @@
   <div>
     <div class="introduce_wrap">
       <div class="company_img">
-        <img src="@img/company_img_1.png" />
+        <img src="https://video.my51share.com/image/default/CE7AED6E83C640CB96A1D24F7BCED53F-6-2.png" />
       </div>
       <div class="company_introduce">
         <span>
@@ -14,13 +14,13 @@
       </div>
       <div class="comany_img_list">
         <div class="comany_img_item_2">
-          <img src="@img/company_img_2.png" />
+          <img src="https://video.my51share.com/image/default/4187342C87994A7989546A27627352A3-6-2.png" />
         </div>
         <div class="comany_img_item_3">
-          <img src="@img/company_img_3.png" />
+          <img src="https://video.my51share.com/image/default/7CB79760EEB04915A01BE7CFCF2BB787-6-2.png" />
         </div>
         <div class="comany_img_item_4">
-          <img src="@img/company_img_4.png" />
+          <img src="https://video.my51share.com/image/default/ED6FCC637B2B49799E2ACCC8323A621F-6-2.png" />
         </div>
       </div>
     </div>

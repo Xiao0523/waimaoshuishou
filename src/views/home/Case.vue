@@ -3,18 +3,18 @@
   <div class="case_wrap">
     <div class="title_wrap">
       <div class="heading_img_1">
-        <img src="@img/img_1.png" />
+        <img src="https://oss.my51share.com/wmss/assets/imgimg_1.png" />
       </div>
       <div class="heading_text">
         <span>合作案例</span>
       </div>
       <div class="heading_img_2">
-        <img src="@img/img_3.png" />
+        <img src="https://oss.my51share.com/wmss/assets/imgimg_3.png" />
       </div>
     </div>
     <div class="caseImg">
       <div>
-        <img src="@img/img_case_1.png" />
+        <img src="https://oss.my51share.com/wmss/assets/imgimg_case_1.png" />
       </div>
     </div>
   </div>

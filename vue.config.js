@@ -4,15 +4,15 @@ module.exports = {
   devServer:{
     host:'localhost',
     port:8080,
-    // proxy:{
-    //   '/api':{
-    //     target:'http://mall-pre.springboot.cn',
-    //     changeOrigin:true,
-    //     pathRewrite:{
-    //       '/api':''
-    //     }
-    //   }
-    // }
+    proxy:{
+      '/api':{
+        target:'https://dev.my51share.com/waimaoshuishou',
+        changeOrigin:true,
+        pathRewrite:{
+          '/api':''
+        }
+      }
+    }
   },
   publicPath: '/',
   runtimeCompiler: true,

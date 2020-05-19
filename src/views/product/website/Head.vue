@@ -138,18 +138,18 @@
 export default {
   data() {
     return {
-      img_1: require("@img/website/process_img_1.png"),
-      img_2: require("@img/website/process_img_2.png"),
-      item_1_img: require("@img/website/process_item_1.png"),
-      item_2_img: require("@img/website/process_item_2.png"),
-      item_3_img: require("@img/website/process_item_3.png"),
-      item_4_img: require("@img/website/process_item_4.png"),
-      item_5_img: require("@img/website/process_item_5.png"),
-      item_6_img: require("@img/website/process_item_6.png"),
-      item_7_img: require("@img/website/process_item_7.png"),
-      item_8_img: require("@img/website/process_item_8.png"),
-      item_9_img: require("@img/website/process_item_9.png"),
-      item_10_img: require("@img/website/process_item_10.png")
+      img_1: "https://oss.my51share.com/wmss/assets/imgwebsite/process_img_1.png",
+      img_2: "https://oss.my51share.com/wmss/assets/imgwebsite/process_img_2.png",
+      item_1_img: "https://oss.my51share.com/wmss/assets/imgwebsite/process_item_1.png",
+      item_2_img: "https://oss.my51share.com/wmss/assets/imgwebsite/process_item_2.png",
+      item_3_img: "https://oss.my51share.com/wmss/assets/imgwebsite/process_item_3.png",
+      item_4_img: "https://oss.my51share.com/wmss/assets/imgwebsite/process_item_4.png",
+      item_5_img: "https://oss.my51share.com/wmss/assets/imgwebsite/process_item_5.png",
+      item_6_img: "https://oss.my51share.com/wmss/assets/imgwebsite/process_item_6.png",
+      item_7_img: "https://oss.my51share.com/wmss/assets/imgwebsite/process_item_7.png",
+      item_8_img: "https://oss.my51share.com/wmss/assets/imgwebsite/process_item_8.png",
+      item_9_img: "https://oss.my51share.com/wmss/assets/imgwebsite/process_item_9.png",
+      item_10_img: "https://oss.my51share.com/wmss/assets/imgwebsite/process_item_10.png"
     };
   },
   components: {}

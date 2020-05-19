@@ -1,17 +1,17 @@
 <template>
   <div class="title_wrap">
     <div class="heading_1_img_1">
-      <img src="@img/img_1.png" />
+      <img src="https://oss.my51share.com/wmss/assets/imgimg_1.png" />
     </div>
     <div class="heading_1_item_2">
       <span>外贸水手</span>
     </div>
     <div class="heading_1_item_3">
-      <img src="@img/img_2.png" />
+      <img src="https://oss.my51share.com/wmss/assets/imgimg_2.png" />
     </div>
     <div class="heading_1_item_4">大服务</div>
     <div class="heading_1_item_5">
-      <img src="@img/img_3.png" />
+      <img src="https://oss.my51share.com/wmss/assets/imgimg_3.png" />
     </div>
   </div>
 </template>

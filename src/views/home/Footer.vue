@@ -39,11 +39,11 @@
         </li>
       </ul>
       <div class="public">
-        <img src="@img/home_public.png" alt />
+        <img src="https://oss.my51share.com/wmss/assets/imghome_public.png" alt />
         <span>公众号</span>
       </div>
       <div class="wechat">
-        <img class="img_public" src="@img/home_wechat.png" alt />
+        <img class="img_public" src="https://oss.my51share.com/wmss/assets/imghome_wechat.png" alt />
         <span>微信</span>
       </div>
     </div>

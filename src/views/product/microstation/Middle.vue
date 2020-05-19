@@ -45,11 +45,11 @@
 export default {
   data() {
     return {
-      service_1_img: require("@img/microstation/service_1.png"),
-      service_2_img: require("@img/microstation/service_2.png"),
-      service_3_img: require("@img/microstation/service_3.png"),
-      service_4_img: require("@img/microstation/service_4.png"),
-      service_5_img: require("@img/microstation/service_5.png")
+      service_1_img: "https://oss.my51share.com/wmss/assets/imgmicrostation/service_1.png",
+      service_2_img: "https://oss.my51share.com/wmss/assets/imgmicrostation/service_2.png",
+      service_3_img: "https://oss.my51share.com/wmss/assets/imgmicrostation/service_3.png",
+      service_4_img: "https://oss.my51share.com/wmss/assets/imgmicrostation/service_4.png",
+      service_5_img: "https://oss.my51share.com/wmss/assets/imgmicrostation/service_5.png"
     };
   },
   components: {}

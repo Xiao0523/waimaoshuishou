@@ -16,26 +16,26 @@
       </div>
       <div class="demand">
         <div class="demand_title">
-          <img src="@img/alibaba_demand_title.png" alt />
+          <img src="https://oss.my51share.com/wmss/assets/imgalibaba_demand_title.png" alt />
           <span>企业面临的B2B平台运营挑战及需求</span>
         </div>
         <div class="demand_item_i_1">
-          <img src="@img/alibaba_demand_1.png" alt />
+          <img src="https://oss.my51share.com/wmss/assets/imgalibaba_demand_1.png" alt />
           <span>缺少专业的运营团队（有限的管理经验与精力，有限的成本预算）</span>
           <span>VS项目式运营，成熟团队（专业团队安排，高效流程化，成本低）</span>
         </div>
         <div class="demand_item_i_2">
-          <img src="@img/alibaba_demand_2.png" alt />
+          <img src="https://oss.my51share.com/wmss/assets/imgalibaba_demand_2.png" alt />
           <span>缺少创意发挥，团队受限（单个运营人员只能实现基本的维护更</span>
           <span>新）VS提供完善的运营维护（保持与最新资讯和技术同步）</span>
         </div>
         <div class="demand_item_i_3">
-          <img src="@img/alibaba_demand_3.png" alt />
+          <img src="https://oss.my51share.com/wmss/assets/imgalibaba_demand_3.png" alt />
           <span>运营需要整体的把控（个人的专业度不够，专业性低）VS活动策</span>
           <span>划，专业性高（专业营销运营，有丰富的经验和创意积累）</span>
         </div>
         <div class="demand_item_i_4">
-          <img src="@img/alibaba_demand_4.png" alt />
+          <img src="https://oss.my51share.com/wmss/assets/imgalibaba_demand_4.png" alt />
           <span>缺少企业推广资源（没有丰富的资源推广，需要尝试摸索，见效</span>
           <span>慢）VS整合多家运营渠道资源（形成异业传播的效果，见效快）</span>
         </div>
@@ -46,24 +46,24 @@
           <span>外贸水手提供一站式B2B平台运营解决方案</span>
         </div>
         <div class="plan_item_i_1">
-          <img src="@img/alibaba_plan_1.png" alt />
+          <img src="https://oss.my51share.com/wmss/assets/imgalibaba_plan_1.png" alt />
           <span>市场分析（数据调研，精准选品，全球商机分析，蓝海市场定位，建及入仓、补仓跟进）</span>
         </div>
         <div class="plan_item_i_2">
-          <img src="@img/alibaba_plan_2.png" alt />
+          <img src="https://oss.my51share.com/wmss/assets/imgalibaba_plan_2.png" alt />
           <span>店铺建设（账户申请、店铺排版，产品、品牌VIS设计，商标注册、品牌备案）</span>
         </div>
         <div class="plan_item_i_3">
-          <img src="@img/alibaba_plan_3.png" alt />
+          <img src="https://oss.my51share.com/wmss/assets/imgalibaba_plan_3.png" alt />
           <span>店铺运营（产品上架、产品优化，店铺内促销方案策划及执行）</span>
         </div>
         <div class="plan_item_i_4">
-          <img src="@img/alibaba_plan_4.png" alt />
+          <img src="https://oss.my51share.com/wmss/assets/imgalibaba_plan_4.png" alt />
           <span>缺少企业推广资源（没有丰富的资源推广，需要尝试摸索，见效慢）</span>
           <span>VS整合多家运营渠道资源（形成异业传播的效果，见效快）</span>
         </div>
         <div class="plan_item_i_5">
-          <img src="@img/alibaba_plan_5.png" alt />
+          <img src="https://oss.my51share.com/wmss/assets/imgalibaba_plan_5.png" alt />
           <span>数据分析（海外市场及行业竞争分析，运营数据及客户行为分析，提高销量、好评）</span>
         </div>
       </div>

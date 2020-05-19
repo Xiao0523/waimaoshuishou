@@ -2,13 +2,13 @@
   <div class="news_wrap">
     <div class="title_wrap">
       <div class="heading_img_1">
-        <img src="@img/img_1.png" />
+        <img src="https://oss.my51share.com/wmss/assets/imgimg_1.png" />
       </div>
       <div class="heading_text">
         <span>新闻资讯</span>
       </div>
       <div class="heading_img_2">
-        <img src="@img/img_3.png" />
+        <img src="https://oss.my51share.com/wmss/assets/imgimg_3.png" />
       </div>
     </div>
     <div>
@@ -66,10 +66,10 @@ export default {
         // Some Swiper option/callback...
       },
       swiperList: [
-        { id: "0001", imgUrl: require("@img/img_news_1.png") },
-        { id: "0002", imgUrl: require("@img/img_news_1.png") },
-        { id: "0003", imgUrl: require("@img/img_news_1.png") },
-        { id: "0004", imgUrl: require("@img/img_news_1.png") }
+        { id: "0001", imgUrl: "https://oss.my51share.com/wmss/assets/imgimg_news_1.png" },
+        { id: "0002", imgUrl: "https://oss.my51share.com/wmss/assets/imgimg_news_1.png" },
+        { id: "0003", imgUrl: "https://oss.my51share.com/wmss/assets/imgimg_news_1.png" },
+        { id: "0004", imgUrl: "https://oss.my51share.com/wmss/assets/imgimg_news_1.png" }
       ],
       newsList: []
     };
