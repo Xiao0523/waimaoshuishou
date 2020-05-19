@@ -20,17 +20,38 @@
           <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
       </div>
+      <div class="news_list">
+        <div class="news_item" v-for="(item,index) in newsList" :key="index">
+          <div class="news_item_ioc"></div>
+          <div class="news_item_title">{{ item.title }}</div>
+          <p class="news_item_content">{{item.content}}</p>
+          <div class="news_item_date">{{ item.date }}</div>
+          <div class="news_item_more">
+            <router-link
+              class="text-decoration"
+              :to="{ name: 'NewsDetails', params: { id: item.id }}"
+            >
+              <span>查看详情 >></span>
+            </router-link>
+          </div>
+        </div>
+      </div>
+      <router-link class="to_learn_more" :to="{ name: 'News'}">
+        <span>了解更多 ></span>
+      </router-link>
     </div>
   </div>
 </template>
 
 <script>
+import axios from "axios";
+import { mapActions } from "vuex";
 export default {
   name: "HomeNews",
   data() {
     return {
       swiperOptions: {
-        direction: "horizontal", 
+        direction: "horizontal",
         pagination: {
           el: ".swiper-pagination"
         },
@@ -45,13 +66,39 @@ export default {
         // Some Swiper option/callback...
       },
       swiperList: [
-        { id: "0001", imgUrl: require('@img/img_news_1.png' )},
-        { id: "0002", imgUrl: require('@img/img_news_1.png' ) },
-        { id: "0003", imgUrl: require('@img/img_news_1.png' ) },
-        { id: "0004", imgUrl: require('@img/img_news_1.png' )}
-      ]
+        { id: "0001", imgUrl: require("@img/img_news_1.png") },
+        { id: "0002", imgUrl: require("@img/img_news_1.png") },
+        { id: "0003", imgUrl: require("@img/img_news_1.png") },
+        { id: "0004", imgUrl: require("@img/img_news_1.png") }
+      ],
+      newsList: []
     };
   },
+  mounted() {
+    this.getData();
+  },
+  methods: {
+    getData() {
+      axios
+        .get("/mock/news.json")
+        .then(res => {
+          console.log(res.data);
+          const list = res.data.data;
+          const newsList_ = list.map(function(item) {
+            let url = item.bannerUrl;
+            item.bannerUrl = require("@/" + url);
+            return item;
+          });
+          this.saveNewsList(newsList_);
+          this.newsList = newsList_.slice(0, 3);
+          //this.$store.dispatch('saveNewsList',this.newsList);
+        })
+        .catch(function(error) {
+          window.console.log(error);
+        });
+    },
+    ...mapActions(["saveNewsList"])
+  }
 };
 </script>
 
@@ -94,10 +141,10 @@ export default {
   height: 49px;
 }
 
-
 .wrapper >>> .swiper-pagination-bullet-active {
   background: #fff;
 }
+
 .wrapper {
   position: absolute;
   top: 280px;
@@ -115,8 +162,114 @@ export default {
   justify-content: center;
   align-content: center;
 }
-.swiper-img{
+
+.swiper-img {
   width: 487px;
   height: 464px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.news_list {
+  position: absolute;
+  top: 272px;
+  left: 960px;
+  width: 500px;
+  height: 420px;
+
+  .news_item {
+    float: left;
+    width: 500px;
+    height: 130px;
+    margin: 10px 0px;
+   // border: 1px solid #D97173;
+
+    &_ioc {
+      position: absolute;
+      margin-top: 10px;
+      margin-left: 10px;
+      width: 4px;
+      height: 22px;
+      background: #FFA152;
+    }
+
+    &_title {
+      position: absolute;
+      width: 420px;
+      margin-top: 8px;
+      padding-left: 25px;
+      height: 26px;
+      font-size: 18px;
+      font-family: SourceHanSansCN-Bold, SourceHanSansCN;
+      font-weight: bold;
+      color: rgba(52, 52, 52, 1);
+      line-height: 26px;
+    }
+
+    &_content {
+      margin-top: 45px;
+      margin-left: 25px;
+      width: 479px;
+      font-size: 14px;
+      font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+      font-weight: 400;
+      color: rgba(52, 52, 52, 1);
+      line-height: 23px;
+      display: -webkit-box; /* 作为弹性伸缩盒子模型显示 */
+      -webkit-line-clamp: 2; /* 显示的行数；如果要设置2行加...则设置为2 */
+      overflow: hidden; /* 超出的文本隐藏 */
+      text-overflow: ellipsis; /* 溢出用省略号 */
+      -webkit-box-orient: vertical; /* 伸缩盒子的子元素排列：从上到下 */
+    }
+
+    &_date {
+      float: left;
+      margin-left: 25px;
+      margin-bottom: 10px;
+      width: 350px;
+      height: 14px;
+      font-size: 14px;
+      font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+      font-weight: 400;
+      color: rgba(52, 52, 52, 1);
+      line-height: 21px;
+    }
+
+    &_more {
+      float: right;
+      margin-bottom: 10px;
+      width: 100px;
+      height: 14px;
+      font-size: 14px;
+      font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+      font-weight: 400;
+      color: rgba(11, 22, 85, 1);
+      line-height: 21px;
+
+      & a {
+        text-decoration: none;
+        color: #0B1655;
+      }
+    }
+  }
+}
+
+.to_learn_more {
+  position: absolute;
+  top: 720px;
+  left: 975px;
+  height: 14px;
+  font-size: 14px;
+  font-family: SourceHanSansCN-Regular, SourceHanSansCN;
+  font-weight: 400;
+  color: rgba(11, 22, 85, 1);
+  line-height: 21px;
+
+  .to_learn_more a{
+    text-decoration: none;
+    color: #0B1655;
+  }
 }
 </style>
