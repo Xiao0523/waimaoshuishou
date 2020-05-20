@@ -78,16 +78,16 @@ export default {
 
 <style scoped lang="stylus">
 .bootom_warp {
-  margin: 0 auto;
+  margin: 0 0;
   position: relative;
   overflow: hidden;
   height: 1005px;
-  width: 1920px;
+  width: 1200px;
 }
 
 .bootom_title_ico {
   position: absolute;
-  left: 367px;
+  left: 7px;
   top: 5px;
   width: 4px;
   height: 23px;
@@ -96,7 +96,7 @@ export default {
 
 .title_span {
   position: absolute;
-  left: 383px;
+  left: 23px;
   width: 96px;
   height: 31px;
   font-size: 24px;
@@ -108,7 +108,7 @@ export default {
 .process_item_i {
   position: absolute;
   top: 85px;
-  left: 370px;
+  left: 10px;
   width: 180px;
   height: 90px;
   background: url('https://oss.my51share.com/wmss/assets/img/microstation/process_1.png') center left no-repeat;
@@ -129,7 +129,7 @@ export default {
 .process_item_2 {
   position: absolute;
   top: 85px;
-  left: 538px;
+  left: 178px;
   width: 180px;
   height: 90px;
   background: url('https://oss.my51share.com/wmss/assets/img/microstation/process_2.png') center left no-repeat;
@@ -150,7 +150,7 @@ export default {
 .process_item_3 {
   position: absolute;
   top: 85px;
-  left: 705px;
+  left: 345px;
   width: 180px;
   height: 90px;
   background: url('https://oss.my51share.com/wmss/assets/img/microstation/process_3.png') center left no-repeat;
@@ -171,7 +171,7 @@ export default {
 .process_item_4 {
   position: absolute;
   top: 85px;
-  left: 873px;
+  left: 513px;
   width: 180px;
   height: 90px;
   background: url('https://oss.my51share.com/wmss/assets/img/microstation/process_4.png') center left no-repeat;
@@ -192,7 +192,7 @@ export default {
 .process_item_5 {
   position: absolute;
   top: 85px;
-  left: 1040px;
+  left: 680px;
   width: 180px;
   height: 90px;
   background: url('https://oss.my51share.com/wmss/assets/img/microstation/process_5.png') center left no-repeat;
@@ -213,7 +213,7 @@ export default {
 .process_item_6 {
   position: absolute;
   top: 85px;
-  left: 1207px;
+  left: 847px;
   width: 180px;
   height: 90px;
   background: url('https://oss.my51share.com/wmss/assets/img/microstation/process_6.png') center left no-repeat;
@@ -234,7 +234,7 @@ export default {
 .process_item_7 {
   position: absolute;
   top: 85px;
-  left: 1375px;
+  left: 1015px;
   width: 180px;
   height: 90px;
   background: url('https://oss.my51share.com/wmss/assets/img/microstation/process_7.png') center left no-repeat;
@@ -254,7 +254,7 @@ export default {
 
 .subtitle_ico {
   position: absolute;
-  left: 385px;
+  left: 25px;
   top: 272px;
   width: 4px;
   height: 23px;
@@ -263,7 +263,7 @@ export default {
 
 .subtitle_span {
   position: absolute;
-  left: 400px;
+  left:40px;
   top: 272px;
   width: 84px;
   height: 54px;
@@ -276,7 +276,7 @@ export default {
 .advantage_item_1 {
   position: absolute;
   top: 368px;
-  left: 430px;
+  left: 70px;
   width: 228px;
   height: 228px;
   background: url('https://oss.my51share.com/wmss/assets/img/microstation/advantage_1.png') center left no-repeat;
@@ -297,7 +297,7 @@ export default {
 .advantage_item_2 {
   position: absolute;
   top: 327px;
-  left: 770px;
+  left: 410px;
   width: 310px;
   height: 310px;
   background: url('https://oss.my51share.com/wmss/assets/img/microstation/advantage_2.png') center left no-repeat;
@@ -319,7 +319,7 @@ export default {
 .advantage_item_3 {
   position: absolute;
   top: 368px;
-  left: 1150px;
+  left: 790px;
   width: 228px;
   height: 228px;
   background: url('https://oss.my51share.com/wmss/assets/img/microstation/advantage_3.png') center left no-repeat;
@@ -341,7 +341,7 @@ export default {
 .advantage_item_4 {
   position: absolute;
   top: 655px;
-  left: 430px;
+  left: 70px;
   width: 224px;
   height: 224px;
   background: url('https://oss.my51share.com/wmss/assets/img/microstation/advantage_4.png') center left no-repeat;
@@ -363,7 +363,7 @@ export default {
 .advantage_item_5 {
   position: absolute;
   top: 610px;
-  left: 770px;
+  left: 410px;
   width: 310px;
   height: 310px;
   background: url('https://oss.my51share.com/wmss/assets/img/microstation/advantage_5.png') center left no-repeat;
@@ -385,7 +385,7 @@ export default {
 .advantage_item_6 {
   position: absolute;
   top: 620px;
-  left: 1158px;
+  left: 800px;
   width: 296px;
   height: 296px;
   background: url('https://oss.my51share.com/wmss/assets/img/microstation/advantage_6.png') center left no-repeat;

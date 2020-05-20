@@ -69,7 +69,7 @@ export default {
   &_title {
     position: absolute;
     top: 47px;
-    left: 825px;
+    left: 565px;
     width: 270px;
     height: 47px;
     font-size: 36px;
@@ -88,7 +88,7 @@ export default {
 
   &_cost {
     position: absolute;
-    margin: 144px 856px;
+    margin: 144px 496px;
     width: 210px;
     height: 27px;
     font-size: 21px;
@@ -99,7 +99,7 @@ export default {
 
   &_equal {
     position: absolute;
-    margin: 186px 887px;
+    margin: 186px 527px;
     width: 155px;
     height: 37px;
     font-size: 16px;
@@ -119,7 +119,7 @@ export default {
 .content_title {
   position: absolute;
   top: 270px;
-  width: 1920px;
+  width: 1200px;
   height: 31px;
   font-size: 24px;
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
@@ -162,42 +162,42 @@ export default {
   background: url('https://oss.my51share.com/wmss/assets/img/google/content_1.png') center left no-repeat;
   position: absolute;
   top: 370px;
-  left: 370px;
+  left: 10px;
 }
 
 .item_i_2 {
   background: url('https://oss.my51share.com/wmss/assets/img/google/content_2.png') center left no-repeat;
   position: absolute;
   top: 370px;
-  left: 787px;
+  left: 427px;
 }
 
 .item_i_3 {
   background: url('https://oss.my51share.com/wmss/assets/img/google/content_2.png') center left no-repeat;
   position: absolute;
   top: 370px;
-  right: 373px;
+   left: 850px;
 }
 
 .item_i_4 {
   background: url('https://oss.my51share.com/wmss/assets/img/google/content_2.png') center left no-repeat;
   position: absolute;
   top: 555px;
-  left: 370px;
+  left: 10px;
 }
 
 .item_i_5 {
   background: url('https://oss.my51share.com/wmss/assets/img/google/content_2.png') center left no-repeat;
   position: absolute;
   top: 555px;
-  left: 787px;
+  left: 427px;
 }
 
 .content_title_item_6 {
   position: absolute;
   float: left;
   top: 610px;
-  left: 1222px;
+  left: 862px;
   width: 311px;
   height: 93px;
   font-size: 16px;
@@ -210,7 +210,7 @@ export default {
   position: absolute;
   float: left;
   top: 702px;
-  left: 1222px;
+  left: 862px;
   width: 204px;
   height: 3px;
   background: rgba(181, 213, 253, 1);

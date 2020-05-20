@@ -112,14 +112,14 @@ export default {
 
 <style scoped lang="stylus">
 .bottom_wrap {
-  width: 1920px;
+  width: 1200px;
   height: 1215px;
   position: relative;
   overflow: hidden;
 
   .tilte {
     position: absolute;
-    width: 1920px;
+    width: 1200px;
     height: 37px;
     top: 52px;
     font-size: 28px;
@@ -133,7 +133,7 @@ export default {
   .subtitle {
     position: absolute;
     top: 118px;
-    left: 534px;
+    left: 94px;
     width: 852px;
     height: 72px;
     font-size: 18px;
@@ -146,7 +146,7 @@ export default {
   .screen {
     position: absolute;
     top: 264px;
-    left: 792px;
+    left: 432px;
     width: 337px;
     height: 337px;
     background: url('https://oss.my51share.com/wmss/assets/img/alibaba_oval.png');
@@ -168,21 +168,21 @@ export default {
   .screen_point_i_1 {
     position: absolute;
     top: 362px;
-    left: 589px;
+    left: 230px;
     z-index: 1;
   }
 
   .point_i_1 {
     position: absolute;
     top: 369px;
-    left: 560px;
+    left: 200px;
   }
 
   .screen_point_i_2 {
     position: absolute;
     // width:256px;
     top: 537px;
-    left: 658px;
+    left: 300px;
     z-index: 1;
     text-align: left;
     background: rgba(255, 255, 255, 1);
@@ -191,13 +191,13 @@ export default {
   .point_i_2 {
     position: absolute;
     top: 545px;
-    left: 625px;
+    left: 265px;
   }
 
   .screen_point_i_3 {
     position: absolute;
     top: 284px;
-    left: 1070px;
+    left: 710px;
     z-index: 1;
     text-align: left;
     background: rgba(255, 255, 255, 1);
@@ -206,13 +206,13 @@ export default {
   .point_i_3 {
     position: absolute;
     top: 290px;
-    left: 1050px;
+    left: 690px;
   }
 
   .screen_point_i_4 {
     position: absolute;
     top: 401px;
-    left: 1152px;
+    left: 792px;
     z-index: 1;
     text-align: left;
     background: rgba(255, 255, 255, 1);
@@ -221,13 +221,13 @@ export default {
   .point_i_4 {
     position: absolute;
     top: 408px;
-    left: 1120px;
+    left: 760px;
   }
 
   .screen_point_i_5 {
     position: absolute;
     top: 537px;
-    left: 1100px;
+    left: 640px;
     z-index: 1;
     text-align: left;
     background: rgba(255, 255, 255, 1);
@@ -236,13 +236,13 @@ export default {
   .point_i_5 {
     position: absolute;
     top: 544px;
-    left: 1072px;
+    left: 712px;
   }
 }
 
 .process_tilte_img {
   position: absolute;
-  left: 367px;
+  left: 0px;
   top: 715px;
   width: 4px;
   height: 23px;
@@ -251,7 +251,7 @@ export default {
 
 .process_tilte span {
   position: absolute;
-  left: 383px;
+  left: 23px;
   top: 715px;
   width: 84px;
   height: 27px;
@@ -263,7 +263,7 @@ export default {
 
 .process_subtitle span {
   position: absolute;
-  left: 383px;
+  left: 23px;
   top: 763px;
   width: 320px;
   height: 21px;
@@ -274,7 +274,7 @@ export default {
 }
 
 .process_figure_item {
-  left: 383px;
+  left: 323px;
   background: url('https://oss.my51share.com/wmss/assets/img/alibaba_rectangular_small.png');
   height: 90px;
   width: 186px;
@@ -293,43 +293,43 @@ export default {
 .item_i_1 {
   position: absolute;
   top: 877px;
-  left: 370px;
+  left: 10px;
 }
 
 .item_i_2 {
   position: absolute;
   top: 877px;
-  left: 683px;
+  left: 323px;
 }
 
 .item_i_3 {
   position: absolute;
   top: 877px;
-  left: 983px;
+  left: 623px;
 }
 
 .item_i_4 {
   position: absolute;
   top: 1011px;
-  left: 420px;
+  left: 60px;
 }
 
 .item_i_5 {
   position: absolute;
   top: 1011px;
-  left: 720px;
+  left: 360px;
 }
 
 .item_i_6 {
   position: absolute;
   top: 1011px;
-  left: 1006px;
+  left: 646px;
 }
 
 .item_i_7 {
   position: absolute;
   top: 877px;
-  right: 437px;
+  right: 77px;
   background: url('https://oss.my51share.com/wmss/assets/img/alibaba_rectangular_big.png');
   width: 211px;
   height: 224px;
@@ -350,36 +350,36 @@ export default {
   .process_arrow_i_1 {
     position: absolute;
     top: 919px;
-    left: 605px;
+    left: 245px;
   }
 
   .process_arrow_i_2 {
     position: absolute;
     top: 919px;
-    left: 916px;
+    left: 556px;
   }
 
   .process_arrow_i_3 {
     position: absolute;
     top: 1048px;
-    left: 364px;
+    left: 4px;
   }
 
   .process_arrow_i_4 {
     position: absolute;
     top: 1048px;
-    left: 644px;
+    left: 284px;
   }
 
   .process_arrow_i_5 {
     position: absolute;
     top: 1048px;
-    left: 944px;
+    left: 584px;
   }
 
   .process_arrow_i_6 {
     position: absolute;
     top: 1033px;
-    left: 1208px;
+    left: 848px;
   }
 </style>

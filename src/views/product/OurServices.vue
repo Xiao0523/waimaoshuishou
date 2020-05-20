@@ -11,10 +11,10 @@
         <google-search></google-search>
       </el-tab-pane>
       <el-tab-pane label="企业商务微站" name="third">
-          <microstation></microstation>
-        </el-tab-pane>
+        <microstation></microstation>
+      </el-tab-pane>
       <el-tab-pane label="企业官网建设服务" name="fourth">
-         <website></website>
+        <website></website>
       </el-tab-pane>
     </el-tabs>
   </div>
@@ -24,7 +24,7 @@
 import Alibaba from "@/views/product/alibaba/Alibaba.vue";
 import GoogleSearch from "@/views/product/google/GoogleSearch.vue";
 import Microstation from "@/views/product/microstation/Microstation.vue";
-import Website  from "@/views/product/website/Website.vue"
+import Website from "@/views/product/website/Website.vue";
 export default {
   data() {
     return {
@@ -79,10 +79,10 @@ export default {
 .el-tabs {
   position: absolute;
   top: 153px;
-  // padding-left: 360px;
-  // padding-right: 360px;
+  padding-left: 360px;
+  padding-right: 360px;
   // left: 360px;
-  width: 1920px;
+  //width: 1920px;
 }
 
 .el-tabs__item {

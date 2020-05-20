@@ -13,7 +13,7 @@ import MicrostationHead from "@/views/product/microstation/Head.vue";
 import MicrostationMiddle from "@/views/product/microstation/Middle.vue";
 import MicrostationBottom from "@/views/product/microstation/Bottom.vue";
 import GoogleService from "@/components/Service.vue";
-import GoogleFooter from "@/views/home/Footer.vue";
+import GoogleFooter from "@/components/Footer.vue";
 export default {
   data() {
     return {};

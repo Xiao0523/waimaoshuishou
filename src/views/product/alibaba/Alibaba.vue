@@ -13,7 +13,7 @@ import AlibabaHead from "@/views/product/alibaba/Head.vue";
 import AlibabaMiddle from "@/views/product/alibaba/Middle.vue";
 import AlibabaBottom from "@/views/product/alibaba/Bottom.vue";
 import AlibabaService from "@/components/Service.vue";
-import AlibabaFooter from "@/views/home/Footer.vue";
+import AlibabaFooter from "@/components/Footer.vue";
 
 export default {
   data() {

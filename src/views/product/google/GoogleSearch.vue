@@ -15,7 +15,7 @@ import GoogleSearchMiddle from "@/views/product/google/Middle.vue";
 import GoogleSearchBottom from "@/views/product/google/Bottom.vue";
 import GoogleSearchAttach from "@/views/product/google/Attach.vue";
 import GoogleService from "@/components/Service.vue";
-import GoogleFooter from "@/views/home/Footer.vue";
+import GoogleFooter from "@/components/Footer.vue";
 export default {
   data() {
     return {};

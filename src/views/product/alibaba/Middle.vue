@@ -57,20 +57,20 @@ export default {
 
 <style scoped lang="stylus">
 .middle_wrap {
-  width: 1920px;
+  width: 1200px;
   position: relative;
   height: 570px;
-  left: 50%;
-  margin-left: -960px;
-  background: url('https://oss.my51share.com/wmss/assets/img/alibaba_middle_background.png');
-  background-size: 1920px 570px;
+  // left: 50%;
+  // margin-left: -960px;
+  background: url('https://video.my51share.com/image/default/9B1EE1ED98A34876941B58A4FD0F1E5D-6-2.png');
+  background-size: 1200px 570px;
   background-repeat: no-repeat;
   // background-size: cover;
   z-index: 1;
 
   &_title {
     position: absolute;
-    width: 1920px;
+    width: 1200px;
     top: 55px;
     text-align: center;
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
@@ -83,7 +83,7 @@ export default {
 
   &_subtitle {
     position: absolute;
-    width: 1920px;
+    width: 1200px;
     top: 100px;
     text-align: center;
     font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
@@ -100,7 +100,7 @@ export default {
   width: 1112px;
   height: 280px;
   bottom: 92px;
-  left: 424px;
+  left: 64px;
 }
 
 .advantage_item {

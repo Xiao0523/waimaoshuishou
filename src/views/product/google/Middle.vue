@@ -47,17 +47,17 @@ export default {
 
 <style scoped lang="stylus">
 .middle_wrap {
-  margin: 0 auto;
+  margin: 0 0;
   position: relative;
   overflow: hidden;
   height: 540px;
-  width: 1920px;
+  width: 1200px;
 }
 
 .middle_tlite {
   position: absolute;
   top: 110px;
-  width: 1920px;
+  width: 1200px;
   height: 31px;
   font-size: 24px;
   font-family: MicrosoftYaHei-Bold, MicrosoftYaHei;
@@ -70,7 +70,7 @@ export default {
 .middle_item_i_1 {
   position: absolute;
   top: 190px;
-  left: 370px;
+  left: 10px;
   width: 186px;
   height: 90px;
   border: 1px solid rgba(151, 151, 151, 1);
@@ -91,7 +91,7 @@ export default {
 .middle_item_i_2 {
   position: absolute;
   top: 280px;
-  left: 462px;
+  left: 162px;
   height: 45px;
   border: 1px solid rgba(151, 151, 151, 1);
 }
@@ -99,7 +99,7 @@ export default {
 .middle_item_i_3 {
   position: absolute;
   top: 325px;
-  left: 370px;
+  left: 10px;
   width: 186px;
   height: 90px;
   border: 1px solid rgba(151, 151, 151, 1);
@@ -119,7 +119,7 @@ export default {
 
 .middle_item_i_4 {
   position: absolute;
-  left: 558px;
+  left: 200px;
   top: 235px;
   width: 311px;
   height: 141px;
@@ -129,7 +129,7 @@ export default {
 .middle_item_i_5 {
   position: absolute;
   top: 190px;
-  left: 867px;
+  left: 507px;
   width: 186px;
   height: 90px;
   border: 1px solid rgba(151, 151, 151, 1);
@@ -150,7 +150,7 @@ export default {
 .middle_item_i_6 {
   position: absolute;
   top: 280px;
-  left: 960px;
+  left: 600px;
   height: 45px;
   border: 1px solid rgba(151, 151, 151, 1);
 }
@@ -158,7 +158,7 @@ export default {
 .middle_item_i_7 {
   position: absolute;
   top: 325px;
-  left: 867px;
+  left: 507px;
   width: 186px;
   height: 90px;
   border: 1px solid rgba(151, 151, 151, 1);
@@ -177,7 +177,7 @@ export default {
 }
 .middle_item_i_8 {
   position: absolute;
-  left: 1053px;
+  left: 693px;
   top: 235px;
   width: 311px;
   height: 141px;
@@ -186,7 +186,7 @@ export default {
 .middle_item_i_9 {
   position: absolute;
   top: 190px;
-  left: 1363px;
+  left: 1003px;
   width: 186px;
   height: 90px;
   border: 1px solid rgba(151, 151, 151, 1);
@@ -206,14 +206,14 @@ export default {
 .middle_item_i_10 {
   position: absolute;
   top: 280px;
-  left: 1456px;
+  left: 1096px;
   height: 45px;
   border: 1px solid rgba(151, 151, 151, 1);
 }
 .middle_item_i_11 {
   position: absolute;
   top: 325px;
-  left: 1363px;
+  left: 1003px;
   width: 186px;
   height: 90px;
   border: 1px solid rgba(151, 151, 151, 1);

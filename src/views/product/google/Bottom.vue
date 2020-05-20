@@ -29,14 +29,14 @@ export default {
   position: relative;
   overflow: hidden;
   height: 310px;
-  width: 1920px;
+  width: 1200px;
   background: url('https://oss.my51share.com/wmss/assets/img/google/map.png') center left no-repeat;
 }
 
 .bottom_title_ico {
   position: absolute;
   top: 94px;
-  left: 363px;
+  left: 3px;
   width: 4px;
   height: 23px;
   background: rgba(255, 162, 83, 1);
@@ -45,7 +45,7 @@ export default {
 .title span {
   position: absolute;
   top: 91px;
-  left: 380px;
+  left: 20px;
   width: 84px;
   height: 27px;
   font-size: 21px;
@@ -57,7 +57,7 @@ export default {
 .text {
   position: absolute;
   top: 140px;
-  left: 363px;
+  left: 3px;
   width: 1193px;
   height: 113px;
   font-size: 16px;

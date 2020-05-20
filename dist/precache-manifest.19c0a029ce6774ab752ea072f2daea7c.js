@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b26f38176e619d023f50",
-    "url": "/assets/css/about.2b6e8a00.css"
+    "revision": "34695e287511da7fe0d3",
+    "url": "/assets/css/about.eac74e3c.css"
   },
   {
     "revision": "c464f611bbc31872e39d",
@@ -100,8 +100,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/img/advantage_6.082e9d8f.png"
   },
   {
-    "revision": "c6cc0357888f6fbaae2395cfae033ab6",
-    "url": "/assets/img/alibaba_middle_background.c6cc0357.png"
+    "revision": "a2c770d50c6d52ad7995d847f6bbc8ea",
+    "url": "/assets/img/alibaba_middle_background.a2c770d5.png"
   },
   {
     "revision": "c7a7ea13a263d6ac41ae2836e67ee9f6",
@@ -304,12 +304,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/img/website_1.bc2a8d5b.png"
   },
   {
-    "revision": "b26f38176e619d023f50",
-    "url": "/assets/js/about.89022c24.js"
+    "revision": "34695e287511da7fe0d3",
+    "url": "/assets/js/about.4bed0d10.js"
   },
   {
-    "revision": "b9658dc84672761ea981",
-    "url": "/assets/js/app.b7b580f6.js"
+    "revision": "56c4b882d551eb8c6cc2",
+    "url": "/assets/js/app.02523df5.js"
   },
   {
     "revision": "c464f611bbc31872e39d",
@@ -320,7 +320,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/js/chunk-vendors.1ce313c8.js"
   },
   {
-    "revision": "ace722867bd06e959d27a8bb0a16445b",
+    "revision": "1685d0be5a137533fca2b10fb63bfcda",
     "url": "/index.html"
   },
   {

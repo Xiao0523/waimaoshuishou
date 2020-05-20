@@ -82,7 +82,7 @@ export default {
 
 <style scoped lang="stylus">
 .head {
-  margin: 0 360px;
+  margin: 0 0px;
   position: relative;
   overflow: hidden;
   height: 1000px;

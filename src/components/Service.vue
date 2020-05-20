@@ -172,17 +172,17 @@ export default {
 
 <style scoped lang="stylus">
 .service_warp {
-  margin: 0 auto;
+  margin: 0 360;
   position: relative;
   overflow: hidden;
-  width: 1920px;
+  width: 1200px;
   height: 567px;
 }
 
 .title_icon {
   position: absolute;
   top: 4px;
-  left: 367px;
+  left: 7px;
   width: 4px;
   height: 23px;
   background: rgba(255, 162, 83, 1);
@@ -190,7 +190,7 @@ export default {
 
 .title_span {
   position: absolute;
-  left: 383px;
+  left: 23px;
   width: 96px;
   height: 31px;
   font-size: 24px;
@@ -201,7 +201,7 @@ export default {
 
 .message {
   position: absolute;
-  left: 367px;
+  left: 7px;
   top: 102px;
   width: 96px;
   height: 31px;
@@ -213,7 +213,7 @@ export default {
 
 .name_span {
   position: absolute;
-  left: 369px;
+  left: 9px;
   top: 194px;
   width: 36px;
   height: 18px;
@@ -226,7 +226,7 @@ export default {
 
 .name_input {
   position: absolute;
-  left: 369px;
+  left: 9px;
   top: 234px;
   width: 200px;
   height: 40px;
@@ -237,7 +237,7 @@ export default {
 
 .contact_span {
   position: absolute;
-  left: 600px;
+  left: 240px;
   top: 194px;
   width: 72px;
   height: 18px;
@@ -250,7 +250,7 @@ export default {
 
 .contact_input {
   position: absolute;
-  left: 600px;
+  left: 240px;
   top: 234px;
   width: 200px;
   height: 40px;
@@ -261,7 +261,7 @@ export default {
 
 .content_span {
   position: absolute;
-  left: 369px;
+  left: 9px;
   top: 310px;
   width: 72px;
   height: 18px;
@@ -274,7 +274,7 @@ export default {
 
 .content_input {
   position: absolute;
-  left: 369px;
+  left: 9px;
   top: 348px;
   width: 430px;
   height: 75px;
@@ -285,7 +285,7 @@ export default {
 
 .submit_wrap >>>.el-button {
   position: absolute;
-  left: 369px;
+  left: 9px;
   top: 464px;
   width: 160px;
   height: 48px;
@@ -296,7 +296,7 @@ export default {
 
 .immediately {
   position: absolute;
-  left: 964px;
+  left: 604px;
   top: 102px;
   width: 84px;
   height: 21px;
@@ -309,7 +309,7 @@ export default {
 
 .immediately_way {
   position: absolute;
-  left: 964px;
+  left: 604px;
   top: 200px;
   width: 540px;
   height: 170px;

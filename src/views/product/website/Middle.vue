@@ -38,7 +38,7 @@ export default {
   height: 512px;
   width: 1920px;
   position: relative;
-  margin: 0 auto;
+  margin: 0 -360px;
   position: relative;
   overflow: hidden;
   background: url('https://oss.my51share.com/wmss/assets/img/website/middle_background.png') center left no-repeat;

@@ -29,12 +29,12 @@ export default {
   position: relative;
   overflow: hidden;
   height: 320px;
-  width: 1920px;
+  width: 1200px;
 
   & p {
     position: absolute;
     top: 16px;
-    left: 367px;
+    left: 7px;
     width: 1063px;
     height: 218px;
     font-size: 16px;

@@ -30,16 +30,16 @@ export default {
 
 <style scoped lang="stylus">
 .head {
-  margin: 0 auto;
+  margin: 0 0;
   position: relative;
   overflow: hidden;
   height: 345px;
-  width: 1920px;
+  width: 1200px;
 
   &_title {
     position: absolute;
     top: 47px;
-    left: 852px;
+    left: 492px;
     width: 220px;
     height: 47px;
     font-size: 36px;
@@ -60,7 +60,7 @@ export default {
 .head_cost {
   position: absolute;
   top: 144px;
-  left: 845px;
+  left: 485px;
   width: 250px;
   height: 27px;
   font-size: 21px;
@@ -78,7 +78,7 @@ export default {
 .content {
   position: absolute;
   top: 210px;
-  left: 367px;
+  left: 7px;
   width: 1186px;
   height: 62px;
   font-size: 16px;

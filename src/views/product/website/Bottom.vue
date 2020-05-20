@@ -46,7 +46,7 @@ export default {
   height: 797px;
   width: 1920px;
   position: relative;
-  margin: 0 auto;
+  margin: 0 -360px;
   position: relative;
   overflow: hidden;
 }

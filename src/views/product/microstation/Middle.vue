@@ -45,11 +45,11 @@
 export default {
   data() {
     return {
-      service_1_img: "https://oss.my51share.com/wmss/assets/imgmicrostation/service_1.png",
-      service_2_img: "https://oss.my51share.com/wmss/assets/imgmicrostation/service_2.png",
-      service_3_img: "https://oss.my51share.com/wmss/assets/imgmicrostation/service_3.png",
-      service_4_img: "https://oss.my51share.com/wmss/assets/imgmicrostation/service_4.png",
-      service_5_img: "https://oss.my51share.com/wmss/assets/imgmicrostation/service_5.png"
+      service_1_img: "https://oss.my51share.com/wmss/assets/img/microstation/service_1.png",
+      service_2_img: "https://oss.my51share.com/wmss/assets/img/microstation/service_2.png",
+      service_3_img: "https://oss.my51share.com/wmss/assets/img/microstation/service_3.png",
+      service_4_img: "https://oss.my51share.com/wmss/assets/img/microstation/service_4.png",
+      service_5_img: "https://oss.my51share.com/wmss/assets/img/microstation/service_5.png"
     };
   },
   components: {}
@@ -58,15 +58,15 @@ export default {
 
 <style scoped lang="stylus">
 .middle_wrap {
-  margin: 0 auto;
+  margin: 0 0;
   position: relative;
   overflow: hidden;
   height: 1413px;
-  width: 1920px;
+  width: 1200px;
 }
 
 .title_ico {
-  left: 367px;
+  left: 7px;
   top: 5px;
   position: absolute;
   width: 4px;
@@ -76,7 +76,7 @@ export default {
 
 .title_span {
   position: absolute;
-  left: 383px;
+  left: 23px;
   width: 96px;
   height: 31px;
   font-size: 24px;
@@ -87,7 +87,7 @@ export default {
 
 .service_item_1_img {
   top: 85px;
-  left: 575px;
+  left: 215px;
   position: absolute;
   width: 270px;
   height: 223px;
@@ -95,7 +95,7 @@ export default {
 
 .service_item_1_content {
   top: 358px;
-  left: 467px;
+  left: 107px;
   position: relative;
   width: 418px;
   height: 103px;
@@ -118,7 +118,7 @@ export default {
 
 .service_item_2_img {
   top: 85px;
-  left: 1070px;
+  left: 710px;
   position: absolute;
   width: 301px;
   height: 239px;
@@ -126,7 +126,7 @@ export default {
 
 .service_item_2_content {
   top: 358px;
-  left: 1038px;
+  left: 678px;
   position: absolute;
   width: 418px;
   height: 103px;
@@ -149,7 +149,7 @@ export default {
 
 .service_item_3_img {
   top: 532px;
-  left: 554px;
+  left: 196px;
   position: absolute;
   width: 260px;
   height: 260px;
@@ -157,7 +157,7 @@ export default {
 
 .service_item_3_content {
   top: 792px;
-  left: 467px;
+  left: 107px;
   position: absolute;
   width: 418px;
   height: 103px;
@@ -179,7 +179,7 @@ export default {
 }
 .service_item_4_img {
   top: 532px;
-  left: 1114px;
+  left: 754px;
   position: absolute;
   width: 265px;
   height: 265px;
@@ -187,7 +187,7 @@ export default {
 
 .service_item_4_content {
   top: 792px;
-  left: 1038px;
+  left: 678px;
   position: absolute;
   width: 418px;
   height: 103px;
@@ -209,14 +209,14 @@ export default {
 }
 .service_item_5_img {
   top: 946px;
-  left: 838px;
+  left: 478px;
   position: absolute;
   width: 244px;
   height: 244px;
 }
 .service_item_5_content {
   top: 1200px;
-  left: 752px;
+  left: 392px;
   position: absolute;
   width: 418px;
   height: 103px;

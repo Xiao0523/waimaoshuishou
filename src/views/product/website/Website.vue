@@ -13,7 +13,7 @@ import WebsiteHead from "@/views/product/website/Head.vue";
 import WebsiteMiddle from "@/views/product/website/Middle.vue";
 import WebsiteBottom from "@/views/product/website/Bottom.vue";
 import GoogleService from "@/components/Service.vue";
-import GoogleFooter from "@/views/home/Footer.vue";
+import GoogleFooter from "@/components/Footer.vue";
 export default {
   data() {
     return {};
