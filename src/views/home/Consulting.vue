@@ -30,13 +30,7 @@
         <span>内容描述</span>
       </div>
       <div class="content_input">
-        <el-input
-          v-model="content"
-          type="textarea"
-          :autosize="{ minRows: 3, maxRows: 4}"
-          :resize="none"
-          :autocomplete="on"
-        ></el-input>
+        <el-input v-model="content" type="textarea" :autosize="{ minRows: 3, maxRows: 4}"></el-input>
       </div>
     </div>
     <div class="submit_wrap">

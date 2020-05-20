@@ -16,7 +16,9 @@
         <swiper :options="swiperOptions">
           <swiper-slide v-for="(item,id) in swiperList" :key="id">
             <!-- <img class="swiper-img" :src="item.imgUrl" /> -->
-            <el-image class="swiper-img" :src="item.imgUrl" lazy></el-image>
+            <div class="swiper-img">
+              <el-image :src="item.imgUrl" lazy></el-image>
+            </div>
           </swiper-slide>
           <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
@@ -56,11 +58,9 @@ export default {
         pagination: {
           el: ".swiper-pagination"
         },
-
         grabCursor: true, //鼠标覆盖Swiper时指针会变成手掌形状，拖动时指针会变成抓手形状
         loop: true,
         height: "464px", // 高度设置，占满设备高度
-        width: "487px",
         autoplay: {
           delay: 1000,
           disableOnInteraction: false
@@ -81,6 +81,10 @@ export default {
         {
           id: "0003",
           imgUrl: "https://oss.my51share.com/wmss/assets/img/img_news_1.png"
+        },
+        {
+          id: "0004",
+          imgUrl: "https://oss.my51share.com/wmss/assets/img/mock/news/00005.png"
         }
       ],
       newsList: []
@@ -154,11 +158,12 @@ export default {
 }
 
 .wrapper_wrap >>> .swiper-pagination-bullet-active {
-  background: #fff;
+  background: #FFA152;
 }
 
 .wrapper_wrap {
   position: absolute;
+  float: left;
   display: flex;
   top: 280px;
   left: 432px;
@@ -176,13 +181,18 @@ export default {
   align-content: center;
 }
 
+.el-image {
+  width: 487px;
+  height: 464px;
+}
+
 .swiper-img {
   width: 487px;
   height: 464px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
+  // margin: 0 auto;
+  // display: flex;
+  // justify-content: flex-start;
+  // flex-wrap: wrap;
 }
 
 .news_list {

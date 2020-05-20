@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "79c53c26c2d38e18f072",
-    "url": "/assets/css/about.8a29e6d1.css"
+    "revision": "d72d985d5ea821842244",
+    "url": "/assets/css/about.d57bd655.css"
   },
   {
     "revision": "c464f611bbc31872e39d",
@@ -300,12 +300,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/img/website_1.bc2a8d5b.png"
   },
   {
-    "revision": "79c53c26c2d38e18f072",
-    "url": "/assets/js/about.b77cfdba.js"
+    "revision": "d72d985d5ea821842244",
+    "url": "/assets/js/about.4c1b46d6.js"
   },
   {
-    "revision": "39b56b3018370fb53d0c",
-    "url": "/assets/js/app.72798049.js"
+    "revision": "b7289e0e9b1e4c157789",
+    "url": "/assets/js/app.db2c0a90.js"
   },
   {
     "revision": "c464f611bbc31872e39d",
@@ -320,7 +320,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/favicon_1.ico"
   },
   {
-    "revision": "1f6ada2e38c4b2a5d843dd395a431b73",
+    "revision": "854fc22451968fcd92d79c1cd110c9b0",
     "url": "/index.html"
   },
   {
