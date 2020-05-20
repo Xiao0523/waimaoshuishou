@@ -575,8 +575,7 @@ service_1:hover {
   float: left;
   top: 117px;
   left: 71px;
-  width: 212px;
-  text-align: center;
+  width: 300px;
   font-size: 16px;
   font-family: MicrosoftYaHei;
   color: rgba(52, 52, 52, 1);
@@ -596,8 +595,7 @@ service_1:hover {
   float: left;
   top: 160px;
   left: 71px;
-  width: 271px;
-  text-align: center;
+  width: 350px;
   font-size: 16px;
   font-family: MicrosoftYaHei;
   color: rgba(52, 52, 52, 1);

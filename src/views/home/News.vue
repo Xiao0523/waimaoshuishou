@@ -12,10 +12,11 @@
       </div>
     </div>
     <div>
-      <div class="wrapper">
+      <div class="wrapper_wrap">
         <swiper :options="swiperOptions">
           <swiper-slide v-for="(item,id) in swiperList" :key="id">
-            <img class="swiper-img" :src="item.imgUrl" />
+            <!-- <img class="swiper-img" :src="item.imgUrl" /> -->
+            <el-image class="swiper-img" :src="item.imgUrl" lazy></el-image>
           </swiper-slide>
           <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
@@ -55,6 +56,7 @@ export default {
         pagination: {
           el: ".swiper-pagination"
         },
+
         grabCursor: true, //鼠标覆盖Swiper时指针会变成手掌形状，拖动时指针会变成抓手形状
         loop: true,
         height: "464px", // 高度设置，占满设备高度
@@ -66,10 +68,20 @@ export default {
         // Some Swiper option/callback...
       },
       swiperList: [
-        { id: "0001", imgUrl: "https://oss.my51share.com/wmss/assets/img/img_news_1.png" },
-        { id: "0002", imgUrl: "https://oss.my51share.com/wmss/assets/img/img_news_1.png" },
-        { id: "0003", imgUrl: "https://oss.my51share.com/wmss/assets/img/img_news_1.png"},
-        { id: "0004", imgUrl: "https://oss.my51share.com/wmss/assets/img/img_news_1.png" }
+        {
+          id: "0001",
+          imgUrl:
+            "https://oss.my51share.com/wmss/assets/img/mock/news/00004.png"
+        },
+        {
+          id: "0002",
+          imgUrl:
+            "https://oss.my51share.com/wmss/assets/img/mock/news/00003.png"
+        },
+        {
+          id: "0003",
+          imgUrl: "https://oss.my51share.com/wmss/assets/img/img_news_1.png"
+        }
       ],
       newsList: []
     };
@@ -141,12 +153,13 @@ export default {
   height: 49px;
 }
 
-.wrapper >>> .swiper-pagination-bullet-active {
+.wrapper_wrap >>> .swiper-pagination-bullet-active {
   background: #fff;
 }
 
-.wrapper {
+.wrapper_wrap {
   position: absolute;
+  display: flex;
   top: 280px;
   left: 432px;
   width: 487px;
@@ -184,7 +197,6 @@ export default {
     width: 500px;
     height: 130px;
     margin: 10px 0px;
-   // border: 1px solid #D97173;
 
     &_ioc {
       position: absolute;
@@ -267,7 +279,7 @@ export default {
   color: rgba(11, 22, 85, 1);
   line-height: 21px;
 
-  .to_learn_more a{
+  .to_learn_more a {
     text-decoration: none;
     color: #0B1655;
   }

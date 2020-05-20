@@ -39,7 +39,7 @@
               <span>内容描述</span>
             </div>
             <div class="content_input">
-              <el-input v-model="content" type="textarea" :autosize="{ minRows: 3, maxRows: 6}"></el-input>
+              <el-input v-model="content" type="textarea" :autosize="{ minRows: 3, maxRows: 4}"></el-input>
             </div>
             <div class="submit_wrap">
               <el-button @click="Verification">提交</el-button>
@@ -158,7 +158,7 @@ export default {
 .outline {
   position: fixed;
   padding: 1px 1px;
-  bottom: 100px;
+  bottom: 150px;
   right: 0;
   z-index: 1;
   background: rgba(255, 255, 255, 1);
@@ -335,5 +335,8 @@ export default {
     top: 515px;
     left: 250px;
   }
+}
+.outline>>>.el-collapse-item__arrow{
+  display:none
 }
 </style>

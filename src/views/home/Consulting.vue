@@ -30,7 +30,13 @@
         <span>内容描述</span>
       </div>
       <div class="content_input">
-        <el-input v-model="content" type="textarea" :autosize="{ minRows: 3, maxRows: 6}"></el-input>
+        <el-input
+          v-model="content"
+          type="textarea"
+          :autosize="{ minRows: 3, maxRows: 4}"
+          :resize="none"
+          :autocomplete="on"
+        ></el-input>
       </div>
     </div>
     <div class="submit_wrap">
@@ -82,7 +88,6 @@ export default {
       }
       getCode(this.phone)
         .then(res => {
-         
           if (res.data.code) {
             return res.data.message && this.$wran(res.data.message);
           }
@@ -108,14 +113,14 @@ export default {
           if (res.data.code) {
             return res.data.message && this.$wran(res.data.message);
           }
-         
+
           this.$message({
             message: res.data.message,
             type: "success",
             duration: 5000
           });
           this.dialogVisible = false;
-            (this.name = ""),
+          (this.name = ""),
             (this.phone = ""),
             (this.content = ""),
             (this.codeUrl = ""),
@@ -257,13 +262,16 @@ export default {
   left: 828px;
   width: 320px;
   height: 48px;
-  background: linear-gradient(56deg, rgba(238, 132, 73, 1) 0%, rgba(216, 77, 35, 1) 100%);
+  // background: linear-gradient(56deg, rgba(238, 132, 73, 1) 0%, rgba(216, 77, 35, 1) 100%);
+  background: rgba(216, 77, 35, 1);
   border-radius: 8px;
+  border: rgba(216, 77, 35, 1);
 }
 
 .submit_wrap>>>el-button--warning {
   color: #FFF;
   background: linear-gradient(56deg, rgba(238, 132, 73, 1) 0%, rgba(216, 77, 35, 1) 100%);
+  // background: rgba(216, 77, 35, 1);
   border-radius: 8px;
 }
 
@@ -272,7 +280,9 @@ export default {
   width: 320px;
   height: 48px;
   background: linear-gradient(56deg, rgba(238, 132, 73, 1) 0%, rgba(216, 77, 35, 1) 100%);
+  // background: rgba(216, 77, 35, 1);
   border-radius: 8px;
+  border: 8px rgba(216, 77, 35, 1);
 }
 
 .submit_wrap>>>.el-button span {
@@ -283,6 +293,12 @@ export default {
   font-weight: 400;
   color: rgba(255, 255, 255, 1);
   line-height: 27px;
+}
+
+.el-textarea__inner {
+  height: 81px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .el-dialog__body {

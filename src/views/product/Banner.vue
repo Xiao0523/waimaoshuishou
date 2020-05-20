@@ -10,7 +10,7 @@
 export default {
     data() {
         return {
-           url:require("@/assets/img/product_banner.png")
+           url:"https://oss.my51share.com/wmss/assets/img/product_banner.png"
         };
     },
     components: {
