@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "819b0b773753561450be",
-    "url": "/assets/css/about.098733ab.css"
+    "revision": "79c53c26c2d38e18f072",
+    "url": "/assets/css/about.8a29e6d1.css"
   },
   {
     "revision": "c464f611bbc31872e39d",
@@ -212,10 +212,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/img/logo.6a4abff9.png"
   },
   {
-    "revision": "82b9c7a5a3f405032b1db71a25f67021",
-    "url": "/assets/img/logo.82b9c7a5.png"
-  },
-  {
     "revision": "339e0b2d797571931a60cee1751d747b",
     "url": "/assets/img/map.339e0b2d.png"
   },
@@ -304,12 +300,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/assets/img/website_1.bc2a8d5b.png"
   },
   {
-    "revision": "819b0b773753561450be",
-    "url": "/assets/js/about.f1302f33.js"
+    "revision": "79c53c26c2d38e18f072",
+    "url": "/assets/js/about.b77cfdba.js"
   },
   {
-    "revision": "8290c30d3113a91a9f07",
-    "url": "/assets/js/app.bef9fe27.js"
+    "revision": "39b56b3018370fb53d0c",
+    "url": "/assets/js/app.72798049.js"
   },
   {
     "revision": "c464f611bbc31872e39d",
@@ -324,7 +320,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/favicon_1.ico"
   },
   {
-    "revision": "29b9c647dcdbec1841e2598bb93af5c0",
+    "revision": "1f6ada2e38c4b2a5d843dd395a431b73",
     "url": "/index.html"
   },
   {

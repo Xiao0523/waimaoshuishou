@@ -172,21 +172,21 @@ export default {
 }
 
 .item_i_3 {
-  background: url('https://oss.my51share.com/wmss/assets/img/google/content_2.png') center left no-repeat;
+  background: url('https://oss.my51share.com/wmss/assets/img/google/content_3.png') center left no-repeat;
   position: absolute;
   top: 370px;
    left: 850px;
 }
 
 .item_i_4 {
-  background: url('https://oss.my51share.com/wmss/assets/img/google/content_2.png') center left no-repeat;
+  background: url('https://oss.my51share.com/wmss/assets/img/google/content_4.png') center left no-repeat;
   position: absolute;
   top: 555px;
   left: 10px;
 }
 
 .item_i_5 {
-  background: url('https://oss.my51share.com/wmss/assets/img/google/content_2.png') center left no-repeat;
+  background: url('https://oss.my51share.com/wmss/assets/img/google/content_5.png') center left no-repeat;
   position: absolute;
   top: 555px;
   left: 427px;
