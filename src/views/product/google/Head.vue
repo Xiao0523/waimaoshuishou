@@ -60,16 +60,15 @@ export default {
 
 <style scoped lang="stylus">
 .head {
-  margin: 0 auto;
+  margin: 0 0;
   position: relative;
   overflow: hidden;
   height: 734px;
-
-  // width: 1920px;
+  width: 1200px;
   &_title {
     position: absolute;
     top: 47px;
-    left: 565px;
+    left: 466px;
     width: 270px;
     height: 47px;
     font-size: 36px;

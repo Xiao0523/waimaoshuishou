@@ -53,5 +53,13 @@ module.exports = {
     // 这个选项不会影响 `*.vue` 文件。
     modules: false
   },
- 
+  pwa: {
+    iconPaths: {
+        favicon32: 'favicon.ico',
+        favicon16: 'favicon.ico',
+        appleTouchIcon: 'favicon.ico',
+        maskIcon: 'favicon.ico',
+        msTileImage: 'favicon.ico'
+    }
+}
 }
